@@ -30,7 +30,7 @@ dag = DAG(
 )
 
 # Database setup
-DATABASE_URL = "postgresql://postgres:Cmorikas77@192.168.1.164:5433/JobApplicationSystem"
+DATABASE_URL = "postgresql://postgres:<password>@192.168.1.164:5433/JobApplicationSystem"
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 session = Session()
