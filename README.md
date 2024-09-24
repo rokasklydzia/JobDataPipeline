@@ -163,6 +163,8 @@ host    all             all             127.0.0.1/32
 - Add more job sources and unify the data pipeline.
 - Implement data quality checks in the Airflow DAGs.
 - Visualize the job trends using tools like Grafana or Metabase.
+- Implement Airflow sensors.
+
 Author: Rokas Klydzia
 
 Feel free to contribute or raise issues for any problems or suggestions you have!
