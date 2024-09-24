@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from datetime import datetime
 
-DATABASE_URI = 'postgresql+psycopg2://postgres:Cmorikas77@192.168.1.164:5433/JobApplicationSystem'
+DATABASE_URI = 'postgresql+psycopg2://postgres:<password>@192.168.1.164:5433/JobApplicationSystem'
 
 # Define default arguments for the DAG
 default_args = {
