@@ -28,7 +28,7 @@ dag = DAG(
 )
 
 # SQLAlchemy setup
-DATABASE_URI = 'postgresql+psycopg2://postgres:Cmorikas77@192.168.1.164:5433/JobApplicationSystem'
+DATABASE_URI = 'postgresql+psycopg2://postgres:<password>@192.168.1.164:5433/JobApplicationSystem'
 Base = declarative_base()
 
 class JobAd(Base):
